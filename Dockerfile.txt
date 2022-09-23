@@ -1,0 +1,6 @@
+FROM node:3.88.188.197
+WORKDIR /usr/src/app
+COPY package*.json app.js ./
+RUN npm install
+EXPOSE 3000
+CMD["3.88.188.197", "app.js"]
